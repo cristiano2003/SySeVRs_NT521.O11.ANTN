@@ -11,9 +11,9 @@
 # =========================== #
 # ==== setup environment ==== #
 # =========================== #
-sudo apt-get -y update
-sudo apt-get install open-vm-tools-desktop open-vm-tools
-sudo apt-get install git
+# sudo apt-get -y update
+# sudo apt-get install open-vm-tools-desktop open-vm-tools
+# sudo apt-get install git
 
 # Set up Joern,Neo4j,Ant
 git clone https://github.com/speeDy167/SySeVRs_NT521.O11.ANTN.git
@@ -23,15 +23,15 @@ echo 'export PATH="$HOME/Tools/neo4j/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
 # Set up required dependencies
-sudo apt install python-minimal
-sudo apt-get install openjdk-8-jdk
-sudo apt-get install python-setuptools python-dev
-sudo apt-get install graphviz libgraphviz-dev graphviz-dev
-sudo apt-get install pkg-config
-sudo apt-get install unzip
-sudo apt-get install p7zip-full
-sudo apt-get -y install python-pip
-sudo apt-get -y install python3-pip
+# sudo apt install python-minimal
+# sudo apt-get install openjdk-8-jdk
+# sudo apt-get install python-setuptools python-dev
+# sudo apt-get install graphviz libgraphviz-dev graphviz-dev
+# sudo apt-get install pkg-config
+# sudo apt-get install unzip
+# sudo apt-get install p7zip-full
+# sudo apt-get -y install python-pip
+# sudo apt-get -y install python3-pip
 pip install python-igraph==0.8.3
 pip3 install xlrd
 # You can install gensim==3.4.0 or tensorflow==1.6.0 its depended on your python version
